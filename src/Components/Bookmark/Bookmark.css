@@ -1,0 +1,26 @@
+.markDiv {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .mark {
+    
+    clip-path: polygon(100% 0%, 50% 50%, 100% 100%, 0 99%, 0% 50%, 0 0);
+    background-color: #cb6be6;
+    height: 100%;
+    width: 8%;
+  }
+  
+  .mark.active {
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 50% 50%, 0% 0%);
+  }
+  
+  .markDiv.end1 {
+    justify-content: flex-end;
+  }
+  
+  .markDiv.start1 {
+    justify-content: flex-start;
+  }
+  

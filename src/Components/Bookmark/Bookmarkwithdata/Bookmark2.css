@@ -1,0 +1,41 @@
+.b2mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.mark2 {
+  
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 50% 50%, 0% 0%);
+  background-color: #cb6be6;
+  height: 100px;
+  width: 8%;
+}
+
+.mark2.active {
+  clip-path: polygon(100% 0%, 50% 50%, 100% 100%, 0 99%, 0% 50%, 0 0);
+}
+
+.nocontent {
+  /* flex-grow: 1;  */
+  width: 8%;
+}
+
+.header {
+  font-size: 1.8rem;
+  background-color: #cb6be6;
+  padding: 10px 50px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.start {
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 425px){
+  .header{
+    font-size: 1.3rem;
+  }
+}
